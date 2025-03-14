@@ -84,8 +84,7 @@ void Widget::on_pbReset_clicked()
 {
     QMessageBox mb;
 
-    int tmp = money;
-    int money500 = tmp / 500;
+    int money500 = money / 500;
     int money100 = (money%500) / 100;
     int money50 = (money%500)%100 / 50;
     int money10 = ((money%500)%100)%50 / 10;
